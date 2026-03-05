@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <title>Iconica Studios</title>
 </head>
 <body>
     <header>
-        <h1>Iconica Studios</h1>
-        <nav>
-            <a href="#incio">Inicio</a></li>
-            <a href="#servicios">Servicios</a></li>
-            <a href="#contacto">Contacto</a></li>
-        </nav>
+        <div class="container">
+            <h1>Iconica Studios</h1>
+            <nav>
+                <a href="#incio">Inicio</a></li>
+                <a href="#servicios">Servicios</a></li>
+                <a href="#contacto">Contacto</a></li>
+            </nav>
+    </div>
     </header>
     <main>
-        <section>
-            <h2>Sobre nosotros</h2>
-            <article class="card">
-                <p>Iconica Studios es un emprendimiento especializado en photobooths</p>
-                <button id="btnvermas">Ver mas...</button>
-            </article>
-        </section>
+        <div class="container">
+            <section>
+                <article class="card">
+                    <h2>Sobre nosotros</h2>
+                    <p>Iconica Studios es un emprendimiento especializado en photobooths</p>
+                    <button id="btnvermas">Ver mas...</button>
+                </article>
+            </section>
+        </div>
+        
     </main>
     <footer>
-
+        <div class="container">
+            <small><!-- © 2026 - Dann --></small>
+        </div>
     </footer>
-    <button id="btnhello">Click</button>
-    <script>
-        const btn = document.querySelector('#btnhello')
-        btn.addEventListener('click', () => {
-            alert("Hola JS")
-        })
-    </script>
 </body>
+</html>
