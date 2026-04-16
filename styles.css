@@ -1,17 +1,23 @@
 body{
-  background-color: #1e1e2e;
+  background-color: #374f43;
   margin: 1%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #cdd6f4;
+  color: #daccc4;
+}
+
+#title{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #d1801e;
 }
 
 h2{
-  font-size: 30px;
-  color: #cba6f7; /* morado claro */
+  font-size: 25px;
+  color: #edbd95; /* morado claro */
 }
 
 button{
-  background-color: blueviolet;
+  background-color: #aa8552;
   color: white;
   padding: 8px 20px;
   border: none;
@@ -19,6 +25,10 @@ button{
   cursor: pointer;
 }
 
-div{
+.destacado{
+  color: #aa8552;
+}
+
+.campo-formulario{
   margin: 12px;
 }
