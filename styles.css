@@ -1,13 +1,24 @@
 body{
   background-color: #1e1e2e;
-  margin: 3%;
+  margin: 1%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #cdd6f4;
 }
 
 h2{
   font-size: 30px;
+  color: #cba6f7; /* morado claro */
 }
 
 button{
   background-color: blueviolet;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+div{
+  margin: 12px;
 }
