@@ -1,4 +1,13 @@
 body{
   background-color: #1e1e2e;
-  margin: 1%;
+  margin: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+  font-size: 30px;
+}
+
+button{
+  background-color: blueviolet;
 }
