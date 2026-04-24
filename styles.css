@@ -35,10 +35,25 @@ button{
 
 table{
   border: 1px solid #d1801e;
+  border-collapse: collapse;
 }
 
 th, td{
   padding: 0px 15px 5px 15px;
+  border: 1px solid #d1801e;
+}
+
+th{
+  background-color: #d1801e;
+}
+
+span{
+  display: inline-block;
+  background-color: #aa8552;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 15px;
+  font-size: 11px;
 }
 
 .tarjeta{
